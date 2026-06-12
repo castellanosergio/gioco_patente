@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gioco della patente</title>
+  <link rel="stylesheet" href="style.css?v=20260612-2">
+</head>
+<body>
+  <main class="layout">
+    <section class="board-section">
+      <canvas id="boardCanvas" class="board-canvas" width="1000" height="511" aria-label="Tabellone di gioco"></canvas>
+      <p class="note">Apri questa cartella con un piccolo server locale per permettere al browser di leggere i CSV e le immagini.</p>
+    </section>
+
+    <aside class="panel">
+      <h1>Quiz patente</h1>
+      <div class="status">
+        <p id="lives">Vite: 3</p>
+        <p id="position">Posizione: -</p>
+      </div>
+
+      <div id="questionImageWrap" class="question-image-wrap hidden">
+        <img id="questionImage" alt="Immagine della domanda">
+      </div>
+
+      <p id="questionText" class="question-text">Caricamento del gioco...</p>
+
+      <div class="actions">
+        <button id="trueButton" class="btn true-btn" type="button">VERO</button>
+        <button id="falseButton" class="btn false-btn" type="button">FALSO</button>
+      </div>
+
+      <p id="message" class="message"></p>
+      <button id="restartButton" class="restart hidden" type="button">Ricomincia</button>
+    </aside>
+  </main>
+
+  <script type="module" src="game.js?v=20260612-2"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+id;domanda;risposta;immagine
+1;Il segnale raffigurato consente la fermata, purché il veicolo non sia di intralcio;VERO;n107.png
+2;Il segnale raffigurato è posto soltanto nelle strade urbane;FALSO;n107.png
+3;Il segnale raffigurato presegnala un incrocio regolato con circolazione rotatoria;VERO;n113.png
+4;Il segnale raffigurato è un segnale di divieto;FALSO;n113.png
+5;Il segnale raffigurato presegnala un tratto di strada ove occorre procedere con particolare prudenza;VERO;n117.png
+6;Il segnale raffigurato vieta la circolazione ai veicoli muniti di pneumatici con catene;FALSO;n117.png
+7;Il segnale raffigurato è posto in corrispondenza di un itinerario riservato solo al transito di pedoni e ciclisti;VERO;n163.png
+8;Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fianco del marciapiede;FALSO;n163.png
+9;Il segnale raffigurato è posto in corrispondenza della fine di un percorso per gli animali da soma;VERO;n170.png
+10;Il segnale raffigurato è posto in corrispondenza della fine di un percorso riservato solo ai cavalli da corsa;FALSO;n170.png
+11;Il segnale raffigurato non obbliga ad arrestarsi al confine di Stato;VERO;n219.png
+12;Il segnale raffigurato preavvisa un posto di blocco degli organi di polizia in vicinanza del confine di Stato;FALSO;n219.png
+13;Il segnale raffigurato preavvisa un incrocio su strada extraurbana;VERO;n224.png
+14;Il segnale raffigurato indica che non è possibile raggiungere S. Giovanni;FALSO;n224.png
+15;Il segnale raffigurato, se posto sul bordo del marciapiede, indica la fermata di uno scuolabus;VERO;n187.png
+16;Il segnale raffigurato vieta il transito ai bambini non accompagnati;FALSO;n187.png
+17;Il segnale raffigurato è posto all'inizio di una strada senza uscita per i veicoli;VERO;n1.png
+18;Il segnale raffigurato vale anche per i pedoni;FALSO;n1.png
+19;Il segnale raffigurato indica l'inizio di una zona a traffico limitato;VERO;n4.png
+20;Il segnale raffigurato indica l'inizio di un'area pedonale;FALSO;n4.png
+21;Il segnale raffigurato preannuncia un tratto di strada deformata;VERO;n4.png
+22;Il segnale raffigurato è un segnale di prescrizione;FALSO;n4.png
+23;In presenza del segnale raffigurato, posto su strada a doppio senso di circolazione e con due sole corsie, si deve circolare il più possibile vicino al margine destro;VERO;n4.png
+24;Il segnale raffigurato preannuncia un tratto di strada a due corsie e doppio senso di circolazione in cui è consentito sorpassare i motocicli, senza superare la striscia bianca continua;FALSO;n4.png
+25;Lo spazio di frenatura è quello percorso dall’inizio della frenata all’arresto del veicolo;VERO;pag191.png
+26;Lo spazio di frenatura si raddoppia se la velocità si raddoppia;FALSO;pag191.png
+27;La distanza di sicurezza non dipende dal tipo di alimentazione del motore (benzina, gasolio, GPL);VERO;pag195.png
+28;La distanza di sicurezza dipende dalla potenza del veicolo che precede;FALSO;pag195.png
+29;Il segnale raffigurato indica l’inizio di una strada in cui i veicoli hanno diritto di precedenza;VERO;n52.png
+30;Il segnale raffigurato obbliga ad arrestarsi all’incrocio;FALSO;n52.png
+31;Il segnale raffigurato invita a maggiore prudenza perché non si ha più diritto di precedenza;VERO;n6.png
+32;Il segnale raffigurato è un segnale di indicazione;FALSO;n6.png
+33;In presenza del segnale raffigurato è obbligatorio mantenere una distanza di almeno 70 metri dal veicolo che precede;VERO;n57.png
+34;Il segnale raffigurato obbliga i veicoli a marciare a meno di 70 metri di distanza l’uno dall’altro;FALSO;n57.png
+35;Il segnale raffigurato vieta l’uso del clacson;VERO;n59.png
+36;Il segnale raffigurato consente l’uso del clacson per richiamare l’attenzione in qualsiasi circostanza;FALSO;n59.png
+37;Il segnale raffigurato preannuncia un attraversamento pedonale;VERO;pag23.png
+38;Il segnale raffigurato preannuncia un luogo frequentato da bambini;FALSO;pag23.png
+39;Il segnale raffigurato preannuncia un restringimento della carreggiata;VERO;pag27.png
+40;Il segnale raffigurato è un segnale di prescrizione;FALSO;pag27.png
+41;Il segnale raffigurato può preannunciare la presenza di una scuola frequentata da bambini nelle vicinanze;VERO;pag28.png
+42;Il segnale raffigurato vieta il transito ai bambini non accompagnati;FALSO;pag28.png
+43;Il segnale raffigurato preannuncia un ponte mobile;VERO;pag29.png
+44;Il segnale raffigurato preannuncia un’area portuale;FALSO;pag29.png
+45;Il segnale raffigurato preannuncia un tratto di strada con banchina cedevole;VERO;pag30.png
+46;Il segnale raffigurato deve essere integrato con il segnale di limite di velocità;FALSO;pag30.png
+47;Il segnale raffigurato preannuncia un tratto di strada con probabile attraversamento di animali domestici;VERO;pag31.png
+48;In presenza del segnale raffigurato è obbligatorio usare ripetutamente l’avvisatore acustico per allontanare gli animali;FALSO;pag31.png
+49;Il segnale raffigurato preannuncia lo sbocco della strada su una banchina portuale;VERO;pag33.png
+50;Il segnale raffigurato preannuncia un viadotto in costruzione;FALSO;pag33.png
+51;Il segnale raffigurato preannuncia il pericolo di caduta di massi;VERO;pag34.png
+52;Il segnale raffigurato preannuncia un tratto di strada deformata;FALSO;pag34.png
+53;Il segnale raffigurato preannuncia la possibilità di un improvviso abbagliamento dovuto ad aeroplani a bassa quota;VERO;pag36.png
+54;Il segnale raffigurato preannuncia una corsia riservata per l’ingresso in aeroporto;FALSO;pag36.png
+55;Se un infortunato della strada ha riportato fratture agli arti non bisogna muovere gli arti fratturati;VERO;pag307.png
+56;Se un infortunato della strada ha riportato fratture agli arti, bisogna cercare di farlo camminare, per diminuire il dolore;FALSO;pag307.png
+57;Un ferito in stato di shock va messo a terra e, se possibile, con le gambe sollevate;VERO;pag306.png
+58;In presenza di un ferito in stato di shock, occorre farlo camminare, per riattivargli la circolazione del sangue;FALSO;pag306.png
+59;Nell’assicurazione per la responsabilità civile auto (R.C.A.) il contratto con la formula “bonus malus” comporta una variazione annuale del premio di assicurazione, in base al numero di incidenti causati;VERO;pag303.png
+60;La formula assicurativa “bonus malus” non si applica per i motocicli;FALSO;pag303.png
+61;È vietato lanciare dal finestrino mozziconi di sigaretta accesi;VERO;pag297.png
+62;È consentito spostare i segnali stradali verticali temporanei per parcheggiare il veicolo;FALSO;pag297.png
+63;La revisione della patente di guida può essere disposta quando sorgono dubbi che il conducente sia ancora in possesso dei requisiti fisici e psichici prescritti;VERO;pag267.png
+64;La revisione della patente di guida può essere disposta quando il titolare non è più in possesso dei requisiti morali richiesti;FALSO;pag267.png
+65;Gli autoveicoli sono veicoli a motore con almeno quattro ruote, esclusi i quadricicli;VERO;
+66;Gli autoveicoli sono tutti i veicoli a motore con quattro o più ruote, compresi i quadricicli;FALSO;
+67;La strada può essere suddivisa in carreggiate;VERO;
+68;La strada non comprende i marciapiedi;FALSO;
+69;I veicoli a due ruote, con motore termico fino a 50 cm3 di cilindrata e velocità massima di 45 km/h sono ciclomotori;VERO;
+70;Si definiscono ciclomotori tutti i veicoli a due ruote di cilindrata superiore a 50 cm3;FALSO;
+71;I tricicli a motore sono veicoli con motore di cilindrata superiore a 50 cm3;VERO;
+72;I tricicli a motore sono costituiti da un motociclo e un sidecar;FALSO;
+73;Fanno parte della carreggiata gli attraversamenti ciclabili;VERO;
+74;Fanno parte della carreggiata le corsie di emergenza delle autostrade;FALSO;
+75;Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondità procedendo con quelli anabbaglianti, quando vi sia il pericolo di abbagliare gli altri utenti della strada;VERO;
+76;Fuori dei centri abitati, i conducenti devono spegnere i proiettori di profondità procedendo con quelli anabbaglianti, solo quando il veicolo che li precede a breve distanza è un’autovettura;FALSO;
+77;Si devono usare gli indicatori di direzione se, marciando su strada a senso unico, ci si sposta sulla corsia di sinistra provenendo da quella di destra;VERO;
+78;L’uso degli indicatori di direzione è necessario quando ci si arresta ad un semaforo rosso;FALSO;
+79;Il segnale mobile triangolare di pericolo deve essere posto sulla corsia occupata dal veicolo fermo o dal carico caduto;VERO;
+80;La velocità deve essere moderata nei tratti di strada a visuale non libera;VERO;
+81;Si deve tenere una velocità regolata in funzione del tempo che abbiamo a disposizione;FALSO;
+82;Il conducente deve regolare la velocità in relazione alle caratteristiche del veicolo;VERO;
+83;Il conducente deve regolare la velocità tenendo conto esclusivamente dei limiti massimi;FALSO;
+84;È obbligatorio ridurre la velocità quando sia difficoltoso l’incrocio con altri veicoli;VERO;
+85;È obbligatorio ridurre la velocità su strada a senso unico;FALSO;
+86;La velocità deve essere particolarmente moderata in prossimità di un incrocio;VERO;
+87;La velocità deve essere particolarmente moderata subito dopo il tramonto del sole;FALSO;
+88;La velocità deve essere particolarmente moderata nelle strettoie;VERO;
+89;I tratti di strada in curva debbono essere percorsi con il pedale della frizione abbassato;FALSO;
+90;Il limite di velocità sulle autostrade per coloro che hanno conseguito la patente da meno di 3 anni è di 100 km/h;VERO;
+91;Il limite di velocità sulle autostrade per coloro che hanno conseguito la patente da meno di tre anni è di 110 km/h;FALSO;
+92;La distanza di sicurezza non dipende dal tipo di alimentazione del motore (benzina, gasolio, GPL);VERO;
+93;La distanza di sicurezza dipende dalla potenza del veicolo che precede;FALSO;
+94;La distanza di sicurezza dipende dallo spazio percorso nel tempo di reazione;VERO;
+95;La distanza di sicurezza deve essere di almeno 100 metri nelle forti discese;FALSO;
+96;La distanza minima di sicurezza se si viaggia a 30 km/h è di circa 9 metri;VERO;
+97;Quando manca la segnaletica orizzontale non è consentito effettuare manovre di inversione del senso di marcia;FALSO;
+98;Giungendo in vicinanza di un incrocio bisogna predisporsi ad osservare le norme di precedenza;VERO;
+99;Giungendo in vicinanza di un incrocio bisogna passare sempre prima dei veicoli che arrivano da destra;FALSO;
+100;In vicinanza o in corrispondenza degli incroci non è consentito procedere a zig zag, anche se le corsie direzionali sono segnate da strisce discontinue (tratteggiate);VERO;
+101;In vicinanza o in corrispondenza degli incroci non è consentito usare i fari anabbaglianti;FALSO;
+102;Se ad un incrocio giungono contemporaneamente da strade diverse due veicoli, l’obbligo di dare la precedenza spetta, di norma, al conducente del veicolo che arriva da sinistra;VERO;
+103;Se ad un incrocio giungono contemporaneamente da strade diverse due veicoli, l’obbligo di dare la precedenza spetta al conducente del veicolo che percorre la strada più stretta;FALSO;
+104;Se un autotreno intende svoltare a destra in una strada stretta, i conducenti degli altri veicoli debbono tener presente che potrebbe diminuire notevolmente la velocità;VERO;
+105;Se un autotreno intende svoltare a destra in una strada stretta, bisogna sorpassarlo subito a sinistra;FALSO;
+106;Se in una strada a forte pendenza, il passaggio tra veicoli non è facilmente possibile, in genere spetta al conducente che procede in discesa arrestarsi ed eventualmente fare retromarcia;VERO;
+107;In presenza del segnale di STOP non occorre arrestarsi, se non vi è la linea trasversale di arresto e non si vedono sopraggiungere veicoli;FALSO;
+108;Quando, in un centro abitato, il conducente di un veicolo si imbatte in un corteo, deve fermarsi sulla destra e attendere che la carreggiata si liberi;VERO;
+109;Quando, in un centro abitato, il conducente di un veicolo si imbatte in un corteo, deve suonare discretamente onde avvertire il corteo di far cessare al più presto l’ingombro;FALSO;
+110;Il conducente che intende sorpassare deve accertarsi che la visibilità sia tale da consentire la manovra;VERO;
+111;Il conducente che intende sorpassare deve accertarsi semplicemente che nessun veicolo provenga dalla direzione opposta;FALSO;
+112;Prima di iniziare una manovra di sorpasso occorre azionare l’indicatore di direzione;VERO;
+113;Il conducente che intende effettuare il sorpasso ha l’obbligo di azionare il segnale acustico;FALSO;
+114;Il sorpasso si effettua tenendo una adeguata distanza laterale dal veicolo che si sorpassa;VERO;
+115;Per eseguire la manovra di sorpasso nei centri urbani si possono momentaneamente superare i limiti di velocità;FALSO;
+116;Il conducente del veicolo da sorpassare ha l’obbligo di non gareggiare in velocità con il veicolo sorpassante;VERO;
+117;Il conducente del veicolo da sorpassare ha l’obbligo di portarsi al centro della carreggiata per evitare sorpassi in scia;FALSO;
+118;Il conducente del veicolo da sorpassare ha l’obbligo di tenersi il più possibile vicino al margine destro su strade ad unica corsia per senso di marcia;VERO;
+119;Il conducente del veicolo da sorpassare ha l’obbligo di portarsi al centro della carreggiata per evitare sorpassi in scia;FALSO;
+120;È consentito sorpassare un’auto della Polizia, se non è in servizio di emergenza e non vi sono altri tipi di impedimenti;VERO;
+121;È vietato sorpassare un’auto della Polizia, non in servizio di emergenza, per non ostacolarne la marcia;FALSO;
+122;Durante un sorpasso in autostrada, la scarsa attenzione posta ai veicoli che seguono può essere causa di incidente;VERO;
+123;Il sorpasso in autostrada può essere motivo di incidente, se viene effettuato in vicinanza di una piazzola di sosta;FALSO;
+124;Nella fase di sorpasso, il conducente è tenuto a evitare di stringere o di tagliare la strada al veicolo sorpassato;VERO;
+125;È consentito spostare i segnali stradali verticali temporanei per parcheggiare il veicolo;FALSO;
+126;Spostare la segnaletica stradale può comportare pericolo grave per gli altri utenti della strada;VERO;
+127;È consentito spostare la segnaletica stradale, se non si tratta di segnali di pericolo;FALSO;
+128;Adesivi, ciondoli o altri oggetti applicati sui vetri del veicolo possono ridurre la visibilità del conducente;VERO;
+129;In caso di lesioni o rottura del vetro anteriore del veicolo, bisogna ripararlo con del nastro adesivo trasparente;FALSO;
+130;Il conducente coinvolto in un incidente stradale ha l’obbligo di fermarsi e di prestare assistenza agli eventuali feriti;VERO;
+131;Dopo un incidente stradale è obbligatorio apporre il segnale mobile di pericolo sul lunotto posteriore del veicolo, prima di andar via;FALSO;

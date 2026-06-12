@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local helper files not needed for GitHub Pages
+server.js
+avvia_gioco_browser.bat
+
+# Optional working files
+*.log
