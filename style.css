@@ -4,8 +4,10 @@
   --blue: #3c78dc;
   --green: #3cb45a;
   --red: #dc5050;
+  --yellow: #f0d246;
   --panel: #fffdf8;
   --line: #d8d0be;
+  --timer-track: #d8d0be;
 }
 
 * {
@@ -34,6 +36,30 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.timer-block {
+  max-width: 1000px;
+}
+
+.timer-label {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.timer-track {
+  overflow: hidden;
+  height: 22px;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--timer-track);
+}
+
+.timer-bar {
+  height: 100%;
+  width: 100%;
+  background: var(--green);
+  transition: width 0.12s linear, background-color 0.12s linear;
 }
 
 .board-canvas {

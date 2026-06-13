@@ -19,6 +19,7 @@ const COLORS = {
 const BOARD_WIDTH = 1000;
 const PLAYER_RADIUS = 14;
 const MOVE_DURATION_MS = 180;
+const TIME_LIMIT_MS = 3 * 60 * 1000;
 
 const boardCanvas = document.getElementById("boardCanvas");
 const ctx = boardCanvas.getContext("2d");
@@ -32,6 +33,8 @@ const messageEl = document.getElementById("message");
 const trueButton = document.getElementById("trueButton");
 const falseButton = document.getElementById("falseButton");
 const restartButton = document.getElementById("restartButton");
+const timerLabelEl = document.getElementById("timerLabel");
+const timerBarEl = document.getElementById("timerBar");
 
 let boardImage;
 let boardHeight = 0;
@@ -57,6 +60,8 @@ let domandaAttuale = null;
 let messaggio = "Rispondi alla domanda.";
 let ultimaTransizione = 0;
 let playerDrawPosition = null;
+let startTime = 0;
+let remainingTimeMs = TIME_LIMIT_MS;
 
 async function loadGame() {
   try {
@@ -109,6 +114,8 @@ function restartGame() {
   domandaAttuale = randomQuestion();
   messaggio = "Rispondi alla domanda.";
   ultimaTransizione = 0;
+  startTime = performance.now();
+  remainingTimeMs = TIME_LIMIT_MS;
   restartButton.classList.add("hidden");
   setButtonsEnabled(true);
   renderPanel();
@@ -116,6 +123,8 @@ function restartGame() {
 }
 
 function loop(timestamp) {
+  updateTimer(timestamp);
+
   if (staMuovendo) {
     if (!ultimaTransizione) {
       ultimaTransizione = timestamp;
@@ -217,12 +226,36 @@ function handleAnswer(rispostaData) {
   renderPanel();
 }
 
+function updateTimer(timestamp) {
+  if (!startTime) {
+    return;
+  }
+
+  if (giocoFinito) {
+    renderTimer();
+    return;
+  }
+
+  remainingTimeMs = Math.max(0, TIME_LIMIT_MS - (timestamp - startTime));
+
+  if (remainingTimeMs === 0) {
+    giocoFinito = true;
+    messaggio = "Tempo scaduto! Game over!";
+    restartButton.classList.remove("hidden");
+    setButtonsEnabled(false);
+    renderPanel();
+  } else {
+    renderTimer();
+  }
+}
+
 function renderPanel() {
   livesEl.textContent = `Vite: ${vite}`;
   positionEl.textContent = posizione ? `Posizione: (${posizione.x}, ${posizione.y})` : "Posizione: -";
   questionTextEl.textContent = domandaAttuale?.testo ?? "";
   messageEl.textContent = messaggio;
   setButtonsEnabled(!staMuovendo && !giocoFinito);
+  renderTimer();
 
   const nomeImmagine = domandaAttuale?.immagine?.trim();
   if (nomeImmagine) {
@@ -233,6 +266,21 @@ function renderPanel() {
     questionImageEl.removeAttribute("src");
     questionImageWrapEl.classList.add("hidden");
   }
+}
+
+function renderTimer() {
+  const ratio = Math.max(0, Math.min(1, remainingTimeMs / TIME_LIMIT_MS));
+  timerBarEl.style.width = `${ratio * 100}%`;
+
+  if (ratio > 0.5) {
+    timerBarEl.style.backgroundColor = "var(--green)";
+  } else if (ratio > 0.25) {
+    timerBarEl.style.backgroundColor = "var(--yellow)";
+  } else {
+    timerBarEl.style.backgroundColor = "var(--red)";
+  }
+
+  timerLabelEl.textContent = `Tempo rimanente: ${formatTime(remainingTimeMs)}`;
 }
 
 function draw() {
@@ -467,6 +515,13 @@ function interpolatePoint(from, to, progress) {
     x: from.x + (to.x - from.x) * clamped,
     y: from.y + (to.y - from.y) * clamped,
   };
+}
+
+function formatTime(timeMs) {
+  const totalSeconds = Math.ceil(timeMs / 1000);
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
 }
 
 function setButtonsEnabled(enabled) {

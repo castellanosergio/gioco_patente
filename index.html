@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gioco della patente</title>
-  <link rel="stylesheet" href="style.css?v=20260612-2">
+  <link rel="stylesheet" href="style.css?v=20260613-1">
 </head>
 <body>
   <main class="layout">
     <section class="board-section">
       <canvas id="boardCanvas" class="board-canvas" width="1000" height="511" aria-label="Tabellone di gioco"></canvas>
+      <div class="timer-block" aria-label="Timer di gioco">
+        <p id="timerLabel" class="timer-label">Tempo rimanente: 3:00</p>
+        <div class="timer-track">
+          <div id="timerBar" class="timer-bar"></div>
+        </div>
+      </div>
       <p class="note">Apri questa cartella con un piccolo server locale per permettere al browser di leggere i CSV e le immagini.</p>
     </section>
 
@@ -36,6 +42,6 @@
     </aside>
   </main>
 
-  <script type="module" src="game.js?v=20260612-2"></script>
+  <script type="module" src="game.js?v=20260613-1"></script>
 </body>
 </html>
